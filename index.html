@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Swan Project More</title>
+
+<style>
+:root {
+  --bg: #19005f;
+  --card-gradient: linear-gradient(135deg, #6b6ee8, #38b5e0, #25d0c8);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  background: var(--bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  flex: 1;
+}
+
+.card {
+  display: block;
+  text-decoration: none;
+  color: black;
+  background: var(--card-gradient);
+  border-radius: 24px;
+  padding: 32px;
+  min-height: 160px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.25);
+}
+
+.card h1 {
+  margin: 0 0 16px 0;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.card p {
+  margin: 0;
+  font-size: 22px;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background: rgba(255,255,255,0.2);
+  border-radius: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2b124f;
+  background: rgba(255,255,255,0.7);
+  padding: 10px 18px;
+  border-radius: 14px;
+  transition: 0.2s ease;
+}
+
+.footer-links a:hover {
+  background: white;
+  transform: scale(1.05);
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <a class="card" href="https://github.com/Panagiotis-Katziotis/swan-browser" target="_blank">
+    <h1>Swan Browser</h1>
+    <p>Το SWAN Browser είναι ένα
+ελαφρύ πρόγραμμα περιήγησης με
+κύριο σκοπό τη ιδιωτικότητα, την
+ασφάλεια και την ευχαρίστηση του
+χρήστη.</p>
+  </a>
+
+  <a class="card" href="https://github.com/Panagiotis-Katziotis/heron_os" target="_blank">
+    <h1>Heron OS1</h1>
+    <p>Το Heron OS1 είναι ένα ελαφρύ και απλό
+πρόγραμμα Debian-based Linux Distro κυρίως
+για καθημερινή χρήση με KDE Plasma. Χρησιμοποιεί τα βασικά μέρη του Kubuntu 25.10.</p>
+  </a>
+
+  <a class="card" href="https://github.com/Panagiotis-Katziotis/swan_ai_studio_app" target="_blank">
+    <h1>AI Studio</h1>
+    <p>Το Swan AI Studio είναι μία
+πλατφόρμα που επιτρέπει τον
+έλεγχο διαφορετικών AI Agents
+από ένα μέρος.</p>
+  </a>
+
+  <a class="card" href="https://github.com/Panagiotis-Katziotis/pearl-browser" target="_blank">
+    <h1>Pearl Browser</h1>
+    <p>Το Pearl Browser είναι ένα πολύ
+ελαφρύ και απλό πρόγραμμα
+περιήγησης για αδύναμες
+συσκευές.</p>
+  </a>
+
+  <a class="card" href="https://linktr.ee/panagiotis.digitalperform" target="_blank">
+    <h1>Παναγιώτης Κατζιώτης</h1>
+    <p>Είμαι μαθητής, junior developer, small content creator και ο δημιουργός αυτού του project.</p>
+  </a>
+
+</div>
+
+<footer>
+  <div class="footer-links">
+    <a href="mailto:vggyktb7f@mozmail.com">Email</a>
+    <a href="https://invite.viber.com/?g2=AQADbbsvETzBElSkPucjCug%2BQcIlwgH0mUN2vfyl6OYF13TrdBolRd6ej%2FsN%2FrWQ&lang=en">Viber</a>
+    <a href="https://discord.gg/pddusEGqaX" target="_blank">Discord</a>
+    <a href="https://ko-fi.com/panagiotis_katziotis" target="_blank">Donate</a>
+  </div>
+</footer>
+
+</body>
+</html>
